@@ -9,7 +9,7 @@ Local repo and gitHub have different histories. There is a problem when merging 
 I have used the below commands to solve the problem 
 
    git checkout master
-   git branch master main -f    ---> used it to make both histories equal  
+   git branch main master -f    ---> used it to make both histories equal  
    git checkout main   
    git push origin main -f
     
